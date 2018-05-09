@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import logo from './logotype.png';
+import aboutus from './about-us.jpeg';
 import './App.css';
 import Scroll from 'react-scroll-to-element';
 
@@ -32,7 +33,24 @@ class App extends Component {
                             Vi kan hjälpa dig att
                             bygga den.<br />
                             Allt går att fixa!
-                            Vi arbetar tillsammans tills NI är nöjda.
+                            Vi arbetar tillsammans tills NI är nöjda.<br /><br />
+                            <strong>Exemepel på tidigare samarbeten</strong>
+                            <a href="http://www.sticksparet.se">
+                                <div className="App-subtitle">www.sticksparet.se</div>
+                            </a>
+                            <a href="http://www.vinterdagen.se">
+                                <div className="App-subtitle">www.vinterdagen.se</div>
+                            </a>
+                            <a href="http://www.dagghätta.se">
+                                <div className="App-subtitle">www.dagghätta.se</div>
+                            </a>
+
+                            <a href="http://www.vespr.se">
+                                <div className="App-subtitle">www.vespr.se</div>
+                            </a>
+                            <a href="https://www.cigbuster.com">
+                                <div className="App-subtitle">www.cigbuster.com</div>
+                            </a>
                         </p>
 
 
@@ -67,7 +85,9 @@ class App extends Component {
                 <div className="about container" id="about">
                     <div className="info-box">
                         <div className="info-box--title">Vilka är vi</div>
-                        <p> </p>
+                        <p>
+                            <img src={aboutus} className="img-about" alt="about-img" />
+                        </p>
                     </div>
                     <Scroll type="class" element="footer" offset={0} timeout={0}>
                         <a>
@@ -97,23 +117,3 @@ class App extends Component {
 }
 
 export default App;
-{/*<p>Från 20.000 kr (samt månadskostnad för drift och support)*/}
-{/*Mallbaserad design som webbdesigner anpassar efter önskemål.*/}
-{/*Webbdesigner skapar ett fast antal sidor (ofta runt 10 st) samt lägger in dina texter och*/}
-{/*bilder.*/}
-{/*Lite mer avancerade funktioner.*/}
-{/*Valfri ledig .se-domän (www.dittforetag.se).*/}
-{/*Ett antal e-postkonton till de anställda (info@dittforetag.se, simon@dittforetag.se etc.).*/}
-{/*Fri support via e-post och eventuellt telefon.*/}
-{/*Enklare sökmotoroptimering av webbdesigner.*/}
-{/*Vad kostar en hemsida?*/}
-
-{/*Från 50.000 (samt månadskostnad)*/}
-{/*Unik design skapad från scratch.*/}
-{/*Webbdesigner skapar det antalet sidor du behöver samt lägger in innehåll.*/}
-{/*Någon skriver ett antal texter samt eventuellt tar bilder.*/}
-{/*Avancerade funktioner och eventuellt skräddarsydd programmering av webbutvecklare.*/}
-{/*Valfri domän samt e-postkonton.*/}
-{/*Fri support via e-post och telefon.*/}
-{/*Mer avancerad sökmotoroptimering (upprepad sökmotoroptimering ger högre månadskostnad).*/}
-{/*</p>*/}
