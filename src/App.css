@@ -154,18 +154,16 @@ ul li {
 }
 
 .about .info-box {
-    width:60vw;
-    min-width: 300px;
-    background: transparent;
+    /*width:60vw;*/
+    /*min-width: 300px;*/
+    background: #29560c;
     /*background: #1c6b02;*/
 }
 .about .info-box p {
     background: transparent;
-    color: #888;
     /*background: #1c6b02;*/
 }
 .about .info-box .info-box--title {
     background: transparent;
-    color: #888;
     /*background: #1c6b02;*/
 }

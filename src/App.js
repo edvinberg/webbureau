@@ -48,13 +48,13 @@ class App extends Component {
                         <div className="info-box--title">Pris</div>
 
                         <p>
-                            <i> Prisexempel på en portfoliohemsida</i>
-                            <br/>
-                            <strong>Startkostnad</strong> 2-8 TKR (registrering och uppbyggnad
-                            av er
-                            hemsida)<br/>
-                            <strong>Därefter</strong> 250 KR i månaden för drift och support
-                            inkl allt som krävs för att hålla igång din webbplats</p>
+                            <strong>Startkostnad</strong> Från 3000kr exkl.moms (registrering och uppbyggnad
+                            av er hemsida)<br/>
+                            <strong>Därefter</strong> 300kr exkl.moms i månaden för drift och support
+                            inkl allt som krävs för att hålla igång din webbplats<br /><br />
+                            <div className="App-subtitle"> <strong>* Arbete</strong> utöver vanlig drift och underhåll faktureras enligt överenskomelse</div>
+
+                        </p>
                     </div>
                     <Scroll type="class" element="about" offset={0} timeout={0}>
                         <a>
