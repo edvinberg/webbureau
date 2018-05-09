@@ -34,7 +34,7 @@ class App extends Component {
                             bygga den.<br />
                             Allt går att fixa!
                             Vi arbetar tillsammans tills NI är nöjda.<br /><br />
-                            <strong>Exemepel på tidigare samarbeten</strong>
+                            <strong>Exempel på tidigare samarbeten</strong>
                             <a href="http://www.sticksparet.se">
                                 <div className="App-subtitle">www.sticksparet.se</div>
                             </a>
