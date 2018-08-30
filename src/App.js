@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import logo from './logotype.png';
 import aboutus from './about-us.jpeg';
+import inico from './inico.png';
 import './App.css';
 import Scroll from 'react-scroll-to-element';
 
@@ -34,9 +35,16 @@ class App extends Component {
                             bygga den.<br />
                             Allt går att fixa!
                             Vi arbetar tillsammans tills NI är nöjda.<br /><br />
+                            <hr />
+                            Ingen fara om ni inte själva har bilden klar för er hur ni vill att er sida ska se ut, vi hjälper givetvis till med all vår kunskap och erfarenhet!
+                            <hr />
+                            <br />
                             <strong>Exempel på tidigare samarbeten</strong>
                             <a href="http://www.sticksparet.se">
                                 <div className="App-subtitle">www.sticksparet.se</div>
+                            </a>
+                            <a href="http://www.sticksparetdesignbutik.se">
+                                <div className="App-subtitle">www.sticksparetdesignbutik.se</div>
                             </a>
                             <a href="http://www.vinterdagen.se">
                                 <div className="App-subtitle">www.vinterdagen.se</div>
@@ -86,6 +94,15 @@ class App extends Component {
                     <div className="info-box">
                         <div className="info-box--title">Vilka är vi</div>
                         <p>
+                            <strong>David Berg </strong>
+                            <a href="https://se.linkedin.com/in/dabersign" target="_blank" rel="noopener noreferrer"><img className="small-ico" alt="linkedIn" src={inico}  /></a>
+                            <br />Jag är en löparnörd som har ett öga för design och innovation. Har en drivkraft att utveckla idéer och presentera förslag från ett annat perspektiv
+
+                            <br/>
+                            <strong>Edvin Berg </strong>
+                            <a href="https://www.linkedin.com/in/edvin-berg-8319b0ab/"  target="_blank" rel="noopener noreferrer"><img className="small-ico" alt="linkedIn" src={inico}  /></a>
+                            <br />Jag är en systemutvecklare som alltid vill skapa värde och möjligheter genom digitala lösningar
+                            <br /><br />
                             <img src={aboutus} className="img-about" alt="about-img" />
                         </p>
                     </div>
@@ -102,7 +119,7 @@ class App extends Component {
                             {/*<div className="App-subtitle">STOCKHOLM|UPPSALA</div>*/}
                             <p className="App-subtitle">STOCKHOLM|UPPSALA </p>
                             <p className="App-subtitle"><strong>E-POST </strong> info@turdweb.se</p>
-                            <p className="App-subtitle"><strong>TEL </strong> 070707070707</p>
+                            <p className="App-subtitle"><strong>TEL </strong> 076-340 32 38</p>
                         </div>
                         <Scroll type="class" element="header" offset={0} timeout={0}>
                             <a>
