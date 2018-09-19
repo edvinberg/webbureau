@@ -78,7 +78,7 @@ class App extends Component {
                             av er hemsida)<br/>
                             <strong>Därefter</strong> 300kr exkl.moms i månaden för drift och support
                             inkl allt som krävs för att hålla igång din webbplats<br /><br />
-                            <div className="App-subtitle"> <strong>* Arbete</strong> utöver vanlig drift och underhåll faktureras enligt överenskomelse</div>
+                            <div className="App-subtitle"> <strong>* Arbete</strong> utöver vanlig drift och underhåll faktureras enligt överenskommelse</div>
 
                         </p>
                     </div>
