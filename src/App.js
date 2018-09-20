@@ -74,10 +74,11 @@ class App extends Component {
                         <div className="info-box--title">Pris</div>
 
                         <p>
-                            <strong>Startkostnad</strong> Från 3000kr exkl.moms (registrering och uppbyggnad
+                            <strong>Startkostnad</strong> Från 10.000kr exkl.moms (registrering och uppbyggnad
                             av er hemsida)<br/>
                             <strong>Därefter</strong> 300kr exkl.moms i månaden för drift och support
                             inkl allt som krävs för att hålla igång din webbplats<br /><br />
+                            Eventuella omtag på design debiteras per timme<br /><br />
                             <div className="App-subtitle"> <strong>* Arbete</strong> utöver vanlig drift och underhåll faktureras enligt överenskommelse</div>
 
                         </p>
