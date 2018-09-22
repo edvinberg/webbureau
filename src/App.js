@@ -42,19 +42,19 @@ class App extends Component {
 
                             <br />
                             <strong>Exempel på tidigare samarbeten</strong><br /><br />
-                            <a href="http://www.sticksparet.se">
-                                <div className="App-subtitle">www.sticksparet.se</div>
-                            </a>
+
                             <a href="http://www.sticksparetdesignbutik.se">
                                 <div className="App-subtitle">www.sticksparetdesignbutik.se</div>
-                            </a>
-                            <a href="http://www.vinterdagen.se">
-                                <div className="App-subtitle">www.vinterdagen.se</div>
                             </a>
                             <a href="http://www.dagghätta.se">
                                 <div className="App-subtitle">www.dagghätta.se</div>
                             </a>
-
+                            <a href="http://www.vinterdagen.se">
+                                <div className="App-subtitle">www.vinterdagen.se</div>
+                            </a>
+                            <a href="http://www.sticksparet.se">
+                                <div className="App-subtitle">www.sticksparet.se</div>
+                            </a>
                             <a href="http://www.vespr.se">
                                 <div className="App-subtitle">www.vespr.se</div>
                             </a>
