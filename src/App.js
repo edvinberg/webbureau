@@ -16,7 +16,7 @@ class App extends Component {
                         <div className="App-intro-container">
                             <div className="App-title">turdweb.</div>
                             {/*<div className="App-subtitle">STOCKHOLM|UPPSALA</div>*/}
-                            <p >Hemsidor åt små företag och privatpersoner</p>
+                            <p >Hemsidor åt företag och privatpersoner</p>
                         </div>
                         <Scroll type="class" element="full" offset={0} timeout={0}>
                             <a>
@@ -36,8 +36,10 @@ class App extends Component {
                             Allt går att fixa!
                             Vi arbetar tillsammans tills NI är nöjda.<br /><br />
                             <hr />
-                            Ingen fara om ni inte själva har bilden klar för er hur ni vill att er sida ska se ut, vi hjälper givetvis till med all vår kunskap och erfarenhet!
+                           Hör av er om ni vill veta vad vi kan göra för just dig eller ditt företag, helt förutsättningslöst!
+                            <p className="App-subtitle"><strong>E-POST </strong> info@turdweb.se</p>
                             <hr />
+
                             <br />
                             <strong>Exempel på tidigare samarbeten</strong>
                             <a href="http://www.sticksparet.se">
@@ -97,7 +99,7 @@ class App extends Component {
                         <p>
                             <strong>David Berg </strong>
                             <a href="https://se.linkedin.com/in/dabersign" target="_blank" rel="noopener noreferrer"><img className="small-ico" alt="linkedIn" src={inico}  /></a>
-                            <br />Jag är en löparnörd som har ett öga för design och innovation. Har en drivkraft att utveckla idéer och presentera förslag från ett annat perspektiv
+                            <br />Jag är en löparnörd som har ett öga för design och innovation
 
                             <br/>
                             <strong>Edvin Berg </strong>
