@@ -29,19 +29,19 @@ class App extends Component {
                     <div className="info-box">
                         <div className="info-box--title">Vad</div>
                         <p>Att skapa en hemsida behöver varken vara dyrt eller krångligt,
-                            vi har en dialog som alla begriper. <br />
-                            Har du en egen idé eller skiss på en hemsida?
+                            vi har en dialog som alla begriper. <br /><br />
+                            Har du en egen idé eller skiss på en hemsida?<br />
                             Vi kan hjälpa dig att
-                            bygga den.<br />
+                            bygga den.<br /><br />
                             Allt går att fixa!
-                            Vi arbetar tillsammans tills NI är nöjda.<br /><br />
-                            <hr />
-                           Hör av er om ni vill veta vad vi kan göra för just dig eller ditt företag, helt förutsättningslöst!
+                            Vi arbetar tillsammans tills ni är nöjda.<br /><br />
+
+                           Hör av er om ni vill veta vad vi kan göra för just dig eller ditt företag!
                             <p className="App-subtitle"><strong>E-POST </strong> info@turdweb.se</p>
                             <hr />
 
                             <br />
-                            <strong>Exempel på tidigare samarbeten</strong>
+                            <strong>Exempel på tidigare samarbeten</strong><br /><br />
                             <a href="http://www.sticksparet.se">
                                 <div className="App-subtitle">www.sticksparet.se</div>
                             </a>
@@ -77,11 +77,11 @@ class App extends Component {
 
                         <p>
                             <strong>Startkostnad</strong> Från 10.000kr exkl.moms (registrering och uppbyggnad
-                            av er hemsida)<br/>
+                            av er hemsida).<br/><br />
                             <strong>Därefter</strong> 300kr exkl.moms i månaden för drift och support
-                            inkl allt som krävs för att hålla igång din webbplats<br /><br />
-                            Eventuella omtag på design debiteras per timme<br /><br />
-                            <div className="App-subtitle"> <strong>* Arbete</strong> utöver vanlig drift och underhåll faktureras enligt överenskommelse</div>
+                            inkl allt som krävs för att hålla igång din webbplats.<br /><br />
+                            Eventuella omtag på design debiteras per timme.<br /><br />
+                            <div className="App-subtitle"> <strong>* Arbete</strong> utöver vanlig drift och underhåll faktureras enligt överenskommelse.</div>
 
                         </p>
                     </div>
@@ -97,12 +97,13 @@ class App extends Component {
                     <div className="info-box">
                         <div className="info-box--title">Vilka är vi</div>
                         <p>
-                            <strong>David Berg </strong>
+                            <strong>David Berg  </strong>
                             <a href="https://se.linkedin.com/in/dabersign" target="_blank" rel="noopener noreferrer"><img className="small-ico" alt="linkedIn" src={inico}  /></a>
                             <br />Jag är en löparnörd som har ett öga för design och innovation
 
                             <br/>
-                            <strong>Edvin Berg </strong>
+                            <br/>
+                            <strong>Edvin Berg  </strong>
                             <a href="https://www.linkedin.com/in/edvin-berg-8319b0ab/"  target="_blank" rel="noopener noreferrer"><img className="small-ico" alt="linkedIn" src={inico}  /></a>
                             <br />Jag är en systemutvecklare som alltid vill skapa värde och möjligheter genom digitala lösningar
                             <br /><br />
