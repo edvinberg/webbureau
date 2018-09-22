@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import logo from './logotype.png';
 import aboutus from './about-us.jpeg';
 import inico from './inico.png';
+import tl from './turdlogofavicon.png';
 import './App.css';
 import Scroll from 'react-scroll-to-element';
 
@@ -14,7 +15,10 @@ class App extends Component {
                     <div className="container header" id="header">
                         <img src={logo} className="App-logo" alt="logo" />
                         <div className="App-intro-container">
-                            <div className="App-title">turdweb.</div>
+                            <div className="App-title">
+                                {/*<img src={tl} alt="logo" style={{ width: '140px' margin-bottom:'-25px'}}/>*/}
+                                <div className="App-title">turdweb.</div>
+                            </div>
                             {/*<div className="App-subtitle">STOCKHOLM|UPPSALA</div>*/}
                             <p >Hemsidor åt företag och privatpersoner</p>
                         </div>
@@ -32,8 +36,7 @@ class App extends Component {
                             vi har en dialog som alla begriper. <br /><br />
                             Har du en egen idé eller skiss på en hemsida?<br />
                             Vi kan hjälpa dig att
-                            bygga den.<br /><br />
-                            Allt går att fixa!
+                            bygga den, allt går att fixa!
                             Vi arbetar tillsammans tills ni är nöjda.<br /><br />
 
                            Hör av er om ni vill veta vad vi kan göra för just dig eller ditt företag!
