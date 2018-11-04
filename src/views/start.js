@@ -89,6 +89,30 @@ const Start = (props) => {
 
                     </p>
                 </div>
+                <Scroll type="class" element="pricing-1" offset={0} timeout={0}>
+                    <a>
+                        <div className="arrow"></div>
+                    </a>
+                </Scroll>
+            </div>
+
+            <div className="pricing-1 container" id="pricing-1">
+                <div className="speech-bubble-simple">
+                    <div className="info-box--title">Enkel hemsida</div>
+                    <div className="App-subtitle"><strong><p>* Vårat populäraste paket!</p></strong>
+                    </div>
+                    <p>
+                        Vi utgår från en färdig design och sätter upp en enkel hemsida.
+                        Passar er som vill ha en hemsida med kontaktuppgifter, öppettider, digitalt cv för jobbsök, information om brölloppet etc.
+                        <br/><br/> <strong>Hemsidan</strong> sätts upp med wordpress så ni enkelt kan arbeta vidare på den och uppdatera innehållet.<br/><br/>
+                        <strong>Totalkostnad</strong> 4.000kr exkl.moms (registrering och uppbyggnad
+                        av er hemsida).<br/><br/>
+                        <strong>Därefter</strong> 300kr exkl.moms i månaden för drift och support
+                        inkl allt som krävs för att hålla igång din webbplats.<br/>
+
+
+                    </p>
+                </div>
                 <Scroll type="class" element="pricing-2" offset={0} timeout={0}>
                     <a>
                         <div className="arrow"></div>
