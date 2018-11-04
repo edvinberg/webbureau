@@ -103,7 +103,7 @@ const Start = (props) => {
                     </div>
                     <p>
                         Vi utgår från en färdig design och sätter upp en enkel hemsida.
-                        Passar er som vill ha en hemsida med kontaktuppgifter, öppettider, digitalt cv för jobbsök, information om brölloppet etc.
+                        Passar er som vill ha en hemsida med kontaktuppgifter, öppettider, digitalt cv för jobbsök, information om bröllopet etc.
                         <br/><br/> <strong>Hemsidan</strong> sätts upp med wordpress så ni enkelt kan arbeta vidare på den och uppdatera innehållet.<br/><br/>
                         <strong>Totalkostnad</strong> 4.000kr exkl.moms (registrering och uppbyggnad
                         av er hemsida).<br/><br/>
