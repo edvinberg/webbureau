@@ -104,7 +104,9 @@ const Start = (props) => {
                         <br/><br/>
                         <strong>Inte nöjd med nuvarande lösning?</strong>  Vi flyttar er webbplats och tar över ansvaret för drift och underhåll.
                         <br/><br/>
-                        <div className="App-subtitle">   <strong>Timpris</strong> 500kr
+                        <div className="App-subtitle">   <strong>Timpris</strong> 500kr exkl.moms
+                            <br/>
+                            <strong>Därefter</strong> 400kr exkl.moms i månaden
                         </div>
 
                     </p>
