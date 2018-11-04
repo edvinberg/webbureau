@@ -123,7 +123,7 @@ ul li {
     margin-bottom: 4vw;
 }
 
-.info-box p, .speech-bubble p {
+.info-box p, .speech-bubble p, .speech-bubble-service p {
     color: #deddd8;
 }
 
@@ -133,7 +133,7 @@ ul li {
     font-size: 40px;
 }
 
-.speech-bubble {
+.speech-bubble, .speech-bubble-service {
     padding: 3vw;
     text-align: left;
     width: 30vw;
@@ -141,11 +141,13 @@ ul li {
     margin-bottom: 4vw;
     margin-top: 20px;
     position: relative;
-    background: #383865;
+
     /*border-radius: .4em;*/
 }
+.speech-bubble{background: #383865;}
+.speech-bubble-service{background: #8e5d5d;}
 
-.speech-bubble:after {
+.speech-bubble:after, .speech-bubble-service::after {
     content: '';
     position: absolute;
     top: 0;
@@ -153,11 +155,15 @@ ul li {
     width: 0;
     height: 0;
     border: 26px solid transparent;
-    border-bottom-color: #383865;
     border-top: 0;
     border-left: 0;
     margin-left: -0px;
     margin-top: -26px;
+}
+.speech-bubble:after{
+     border-bottom-color: #383865;
+}.speech-bubble-service:after{
+     border-bottom-color: #8e5d5d;
 }
 
 .about .info-box {
