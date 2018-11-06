@@ -38,7 +38,7 @@ const Start = (props) => {
                         bygga den, allt går att fixa!
                         Vi arbetar tillsammans tills ni är nöjda.<br/><br/>
 
-                        Hör av er om ni vill veta vad vi kan göra för just dig eller ditt företag!
+                        Hör av er om ni vill veta vad vi kan göra för just dig eller ditt företag! <br/>
                         <span className="App-subtitle"><strong>E-POST </strong> info@turdweb.se</span>
                     </p>
                         <hr/>
