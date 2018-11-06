@@ -117,7 +117,7 @@ ul li {
     /*overflow: hidden;*/
     padding: 3vw;
     text-align: left;
-    background: #282624;
+    background: #77887c;
     width: 30vw;
     min-width: 300px;
     margin-bottom: 4vw;
@@ -195,4 +195,23 @@ ul li {
 .small-ico{
     vertical-align: middle;
     width: 20px;
+}
+
+.animated--link {
+    display: inline-block;
+    /*color: #000;*/
+    text-decoration: none;
+}
+
+.animated--link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #deddd8;
+    transition: width .3s;
+}
+
+.animated--link:hover::after {
+    width: 100%;
 }

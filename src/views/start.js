@@ -30,7 +30,7 @@ const Start = (props) => {
             </header>
             <div className="full container" id="full">
                 <div className="info-box">
-                    <div className="info-box--title">Vad</div>
+                    <div className="info-box--title">Vad gör turdweb?</div>
                     <p>Att skapa en hemsida behöver varken vara dyrt eller krångligt,
                         vi har en dialog som alla begriper. <br/><br/>
                         Har du en egen idé eller skiss på en hemsida?<br/>
@@ -39,29 +39,29 @@ const Start = (props) => {
                         Vi arbetar tillsammans tills ni är nöjda.<br/><br/>
 
                         Hör av er om ni vill veta vad vi kan göra för just dig eller ditt företag!
-                        <p className="App-subtitle"><strong>E-POST </strong> info@turdweb.se</p>
+                        <span className="App-subtitle"><strong>E-POST </strong> info@turdweb.se</span>
+                    </p>
                         <hr/>
-
+                    <p>
                         <br/>
                         <strong>Exempel på tidigare samarbeten</strong><br/><br/>
-
-                        <a href="http://www.sticksparetdesignbutik.se">
-                            <div className="App-subtitle">www.sticksparetdesignbutik.se</div>
-                        </a>
-                        <a href="http://www.dagghätta.se">
-                            <div className="App-subtitle">www.dagghätta.se</div>
-                        </a>
-                        <a href="http://www.vinterdagen.se">
-                            <div className="App-subtitle">www.vinterdagen.se</div>
-                        </a>
-                        <a href="http://www.sticksparet.se">
-                            <div className="App-subtitle">www.sticksparet.se</div>
-                        </a>
-                        <a href="http://www.vespr.se">
-                            <div className="App-subtitle">www.vespr.se</div>
-                        </a>
-                        <a href="https://www.cigbuster.com">
-                            <div className="App-subtitle">www.cigbuster.com</div>
+                        <a className="animated--link" href="http://www.sticksparetdesignbutik.se">
+                            <span className="App-subtitle">www.sticksparetdesignbutik.se</span>
+                        </a><br />
+                        <a className="animated--link" href="http://www.dagghätta.se">
+                            <span className="App-subtitle">www.dagghätta.se</span><br />
+                        </a><br />
+                        <a className="animated--link" href="http://www.vinterdagen.se">
+                            <span className="App-subtitle">www.vinterdagen.se</span><br />
+                        </a><br />
+                        <a className="animated--link" href="http://www.sticksparet.se">
+                            <span className="App-subtitle">www.sticksparet.se</span><br />
+                        </a><br />
+                        <a className="animated--link" href="http://www.vespr.se">
+                            <span className="App-subtitle">www.vespr.se</span><br />
+                        </a><br />
+                        <a className="animated--link" href="https://www.cigbuster.com">
+                            <span className="App-subtitle">www.cigbuster.com</span><br />
                         </a>
                     </p>
 
@@ -83,9 +83,9 @@ const Start = (props) => {
                         <strong>Därefter</strong> 400kr exkl.moms i månaden för drift och support
                         inkl allt som krävs för att hålla igång din webbplats.<br/><br/>
                         Eventuella omtag på design debiteras per timme.<br/><br/>
-                        <div className="App-subtitle"><strong>* Arbete</strong> utöver vanlig drift och underhåll
+                        <span className="App-subtitle"><strong>* Arbete</strong> utöver vanlig drift och underhåll
                             faktureras enligt överenskommelse.
-                        </div>
+                        </span>
 
                     </p>
                 </div>
@@ -103,8 +103,10 @@ const Start = (props) => {
                     </div>
                     <p>
                         Vi utgår från en färdig design och sätter upp en enkel hemsida.
-                        Passar er som vill ha en hemsida med kontaktuppgifter, öppettider, digitalt cv för jobbsök, information om bröllopet etc.
-                        <br/><br/> <strong>Hemsidan</strong> sätts upp med wordpress så ni enkelt kan arbeta vidare på den och uppdatera innehållet.<br/><br/>
+                        Passar er som vill ha en hemsida med kontaktuppgifter, öppettider, digitalt cv för jobbsök,
+                        information om bröllopet etc.
+                        <br/><br/> <strong>Hemsidan</strong> sätts upp så ni enkelt kan arbeta vidare på den och själva
+                        uppdatera innehållet.<br/><br/>
                         <strong>Totalkostnad</strong> 4.000kr exkl.moms (registrering och uppbyggnad
                         av er hemsida).<br/><br/>
                         <strong>Därefter</strong> 300kr exkl.moms i månaden för drift och support
@@ -123,15 +125,17 @@ const Start = (props) => {
                 <div className="speech-bubble-service">
                     <div className="info-box--title">Uppdateringar och underhåll</div>
 
-                    <p>Vi hjälper er att komma igång, uppdatera, designa om eller byta innehåll på er nuvarande webbplats.
+                    <p>Vi hjälper er att komma igång, uppdatera, designa om eller byta innehåll på er nuvarande
+                        webbplats.
 
                         <br/><br/>
-                        <strong>Inte nöjd med nuvarande lösning?</strong>  Vi flyttar er webbplats och tar över ansvaret för drift och underhåll.
+                        <strong>Inte nöjd med nuvarande lösning?</strong> Vi flyttar er webbplats och tar över ansvaret
+                        för drift och underhåll.
                         <br/><br/>
-                        <div className="App-subtitle">   <strong>Timpris</strong> 500kr exkl.moms
+                        <span className="App-subtitle"><strong>Timpris</strong> 500kr exkl.moms
                             <br/>
                             <strong>Därefter</strong> 400kr exkl.moms i månaden
-                        </div>
+                        </span>
 
                     </p>
                 </div>
