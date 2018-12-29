@@ -26,6 +26,10 @@ body {
     /*animation: App-logo-spin infinite 20s linear;*/
     height: 13vw;
 }
+.App-logo-title {
+    min-height: 50px;
+    height: 5vw;
+}
 
 .App-header {
     /*position: relative;*/

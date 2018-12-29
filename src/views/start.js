@@ -1,6 +1,8 @@
 import React from 'react';
 import Scroll from "react-scroll-to-element";
-import logo from '../logotype.png';
+// import logo from '../logotype.png';
+import logo from '../xturd.png';
+import logo2 from '../turdlog2.png';
 import aboutus from '../about-us.jpeg';
 import inico from '../inico.png';
 import '../App.css';
@@ -14,10 +16,11 @@ const Start = (props) => {
 
                     <img src={logo} className="App-logo" alt="logo"/>
                     <div className="App-intro-container">
-                        <div className="App-title">
-                            {/*<img src={tl} alt="logo" style={{ width: '140px' margin-bottom:'-25px'}}/>*/}
-                            <div className="App-title">turdweb.</div>
-                        </div>
+                        <img src={logo2} className="App-logo-title" alt="logo"/>
+                        {/*<div className="App-title">*/}
+                            {/*/!*<img src={tl} alt="logo" style={{ width: '140px' margin-bottom:'-25px'}}/>*!/*/}
+                            {/*<div className="App-title">turdweb.</div>*/}
+                        {/*</div>*/}
                         {/*<div className="App-subtitle">STOCKHOLM|UPPSALA</div>*/}
                         <p>Hemsidor åt företag och privatpersoner</p>
                     </div>
