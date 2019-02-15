@@ -48,9 +48,6 @@ const Start = (props) => {
                     <p>
                         <br/>
                         <strong>Exempel på tidigare samarbeten</strong><br/><br/>
-                        <a className="animated--link" href="http://www.sticksparetdesignbutik.se">
-                            <span className="App-subtitle">www.sticksparetdesignbutik.se</span>
-                        </a><br />
                         <a className="animated--link" href="http://www.dagghätta.se">
                             <span className="App-subtitle">www.dagghätta.se</span><br />
                         </a><br />
