@@ -54,6 +54,9 @@ const Start = (props) => {
                         <a className="animated--link" href="http://www.dagghätta.se">
                             <span className="App-subtitle">www.dagghätta.se</span><br />
                         </a><br />
+                        <a className="animated--link" href="http://www.uppsalacity.se">
+                            <span className="App-subtitle">www.uppsalacity.se</span><br />
+                        </a><br />
                         <a className="animated--link" href="http://www.vinterdagen.se">
                             <span className="App-subtitle">www.vinterdagen.se</span><br />
                         </a><br />
